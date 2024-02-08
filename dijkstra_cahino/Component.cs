@@ -9,7 +9,7 @@ namespace dijkstra_cahino
      public interface IComponent
     {
         string Name { get; }
-        void Added(IComponent component);
+        void Add(IComponent component);
         void Display(int depth);
     }
 }
